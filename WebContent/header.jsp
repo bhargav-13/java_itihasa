@@ -10,6 +10,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -90,8 +93,8 @@
                                 </div>
                             </div>
                              <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">BOOKS</a>
-                                <div class="dropdown-menu rounded-0 m-0">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">BOOKS</a>
+                                <div class="dropdown-menu rounded-1 m-1">
                                 <a href="orders.jsp" class="dropdown-item">My Orders</a>
                                 <a href="yourbooks.jsp" class="dropdown-item">Your Books</a>
                                 <a href="buy.jsp" class="dropdown-item">BUY</a>
